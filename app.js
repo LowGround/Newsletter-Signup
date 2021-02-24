@@ -65,3 +65,6 @@ app.post('/failure', function(req, res){
 app.listen(process.env.PORT || 3000, function() {
     console.log('running on port 3000');
 })
+
+
+// IMPORTANT: WE NEED THE PROCFILE SO THAT HEROKU CAN KNOW HOW TO RUN OUR APP
